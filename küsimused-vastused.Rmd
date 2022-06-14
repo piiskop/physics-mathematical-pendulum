@@ -1,0 +1,14 @@
+# Vastused küsimustele
+
+1.  **Millised faktorid võisid mõjutada meie poolt saadud andmete erinevust aktsepteeritud tulemustest?**
+
+    Vahel lasime riba langeda viltu, mis tegi vahemaad ja seeläbi ka kiirenduse suuremaks. Võimalik ka, et regressioonijoont tekitades sättisime ebatäpselt.
+
+2.  **Millest võib olla tingitud erinevate katsete korral saadud tulemuste erinevus?**
+
+    Riba võis olla langemise ajal eri moodi viltu.
+
+3.  **Millest võib olla tingitud tabeli ja graafiku abil saadud tulemuste erinevus?**
+
+    Tabeli põhjal lasin arvutada otse, graafiku abil tekkis ebatäpsusi seoses regressioonijoonte tekitamisega eriti just seetõttu, et katseid oli võrdlemisi vähe.
+    

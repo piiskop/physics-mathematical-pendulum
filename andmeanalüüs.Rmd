@@ -1,0 +1,21 @@
+# Andmeanalüüs
+
+Andmeanalüüsi tegin mina, peacecop kalmer:, üksi. Kui arvutustulemuste
+koht on kas tabelis
+\@ref(tab:velocity-time), \@ref(tab:acceleration)
+või \@ref(tab:position-time), siis need arvutused on näidatud vahetult
+enne vastavat tabelit.
+
+Andmeanalüüsi sisu:
+
+1. Lasin arvutada, kui palju erineb meie poolt erinevate analüüsimeetoditega saadud kiirenduse väärtus aktsepteeritud kiirenduse väärtusest.
+
+2. Lasin arvutada mõõteseeriate keskmiste tulemuste mõõtemääramatused vastavalt seosele \@ref(eq:delta_g).\@ref(eq:delta_g)
+
+3.  Kirjutasin välja iga katseseeria kohta *g* kujul $g \in (\overline{g} - \Delta(g), \overline{g} + \Delta(g))$ ja hindasin, kas aktsepteeritud tulemus jäi erinevate meetodite korral veapiiridesse.
+
+    Aktsepteeritud tulemus jäi igas katseseerias veapiiridesse.
+
+4.  Lasin arvutada katseseeriate suhtelise vea $\gamma := \frac{\Delta(g)}{\overline{g}}$ ja hindasin katse õnnestumist.
+
+    Iga katseseeria puhul oli suhteline viga väiksem kui 0.05, mistõttu võib lugeda eksperimendi õnnestunuks. Samas lähtudes pildil \@ref(fig:cities) olevatest andmetest, ei tohi mõõdetud väärtused nii palju erineda, kuna üle terve Maa ei ole gravitatsioonist tingitud kiirendus nii suurtes piirides kõikuv kui meie eksperimendis. Siiski, kui ümarada nimetatud kiirenduse arvväärtus ühelisteni, saime iga kord sama tulemuse $10 \cdot \mathrm{\frac{m}{s^2}}$, mida võib ligikaudsete arvutamiste jaoks kasutada.

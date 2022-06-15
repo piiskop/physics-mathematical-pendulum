@@ -1,6 +1,6 @@
 # Katseseadme skeem
 
-```{r setting-up-test-device, fig.cap = "Fotovärava asetus vaba langemise kiirenduse määramiseks", fig.margin = TRUE}
+```{r setting-up-test-device, fig.cap = "Matemaatilise ja füüsikalise pendli katseseade", fig.margin = TRUE}
 include_svg("katseseadme-ülesseadmine/katseseadme-ülesseadmine.svg")
 ```
 

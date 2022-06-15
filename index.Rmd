@@ -1,9 +1,9 @@
 --- 
-title: "Vaba langemise kiirenduse määramine"
-author: 'peacecop kalmer:, Risto Koor'
-number: 1
+title: "Matemaatiline ja füüsikaline pendel"
+author: 'peacecop kalmer:'
+number: 3
 #date: "`r Sys.Date()`"
-date-work: "20220311"
+date-work: "20220325"
 date-handing-over: "20220615"
 group: "MLLBk-1"
 site: bookdown::bookdown_site
@@ -61,13 +61,13 @@ if (!require("librarian")) {
 
 library(librarian)
 
-print_table <- function(data_frame, caption) {
+print_table <- function(data_frame, caption, digits = 2) {
     if (!is.null(knitr::opts_knit$get('rmarkdown.pandoc.to')) && (knitr::opts_knit$get('rmarkdown.pandoc.to') == "docx")) {
       librarian::shelf("flextable")
       table <- (flextable(data_frame))
     } else {
       librarian::shelf("kableExtra")
-      table <- (kable(data_frame, format = "latex", booktabs = TRUE, escape = FALSE, caption = caption, digits = 2))
+      table <- (kable(data_frame, format = "latex", booktabs = TRUE, escape = FALSE, caption = caption, digits = digits))
     } 
   return(table)
 }

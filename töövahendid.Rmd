@@ -1,7 +1,11 @@
 # Töö vahendid
 
-1.  PASCO *Science Workshop* 500, 700, 750 (SW) või *xPlorer* GLX'i liides (PASCO *Digital Adapter*iga),
+1.  Katseseade matemaatilise ja füüsikalise pendliga,
 
-2.  fotovärav statiiviga,
+2. millimeeterjaotusega joonlaud,
 
-3.  triipriba.
+3. fotovärav,
+
+4. digitaaladapter,
+
+5. *PASCO xPlorer GLX*.

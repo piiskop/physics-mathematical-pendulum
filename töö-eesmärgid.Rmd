@@ -6,6 +6,10 @@ output:
 
 # Töö eesmärgid
 
-1.  Vaba langemise kiirenduse määramine fotovärava ja triipriba abil.
+1.  Matemaatilise ja füüsikalise pendli võnkeperioodi valemite paikapidavus katseliselt uuritud.
 
-2.  Andmetöötluse regressioonanalüüsi meetodi tundmaõppimine PASCO *DataStudio* (DS) tarkvara abil.
+2.  Raskuskiirendus katsetamiskohas pendlimeetodil määratud.
+
+3. Kontrollitud, kas füüsikalise pendli teoreetilisest käsitlusest leitud pendli võnkeperiood langeb kokku katsest määratud perioodiga.
+
+4. Võnkumiste põhjal keha intertsimomendi katselise määramise tundmine.

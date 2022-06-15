@@ -8,7 +8,7 @@ bookdown::pdf_book:
   #citation_package: natbib
   keep_tex: yes
   template: template.tex
-  extra_dependencies: ["float", "flafter"]
+  extra_dependencies: ["float", "flafter", "tcolorbox"]
   fig_caption: yes
 bookdown::epub_book: default
 bookdown::word_document2:

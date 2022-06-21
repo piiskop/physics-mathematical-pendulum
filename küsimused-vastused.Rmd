@@ -2,6 +2,15 @@
 
 1.  **Kas füüsikalise pendli $T_f$ ja $T_r$ langevad kokku katse vea täpsusega?**
 
+    Mõõtemääramatus:
+
+    ```{=tex}
+     \begin{equation}
+    \Delta(x) := 2.57 \cdot \sqrt{\frac{\sum_{i := 1}^n{(\overline{x} - x_i)^2}}{n \cdot (n - 1)}}
+    (\#eq:delta-g)
+    \end{equation}
+    ```
+
     Füüsikalise pendli $T_r := \mathrm{`r mean_T_r` \times s}$. Selle kaudu üldse hindasin mõõteviga, mistõttu tuleks nüüd vaadelda, kas $T_f$ sobitub lubatud mõõtemääramatusse:
     
     ```{r label = "answer-1"}
@@ -23,7 +32,7 @@
     R_T <- abs(T_f - mean_T_r) / T_f
     ```
     
-    `r R_T` oli teoreetilise ja mõõdetud tulemuse suhteline erinevus.
+    `r R_T` oli teoreetilise ja mõõdetud tulemuse suhteline erinevus. Kuna see on isegi väiksem kui 0.01, eksperiment õnnestus võimsalt. Juhhei!
     
 3.  **Millised katsetegurid võivad põhjustada erinevusi $T_f$'i ja $T_r$'i vahel?**
 
